@@ -36,3 +36,7 @@ def embed_programs(program_data):
     key가 program id, value가 emb
     """
     return program_emb
+
+# prmopt 전처리
+def preprocess_prompt(text):
+    return text.strip().replace("\n", " ")
