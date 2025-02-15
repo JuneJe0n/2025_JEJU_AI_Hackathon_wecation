@@ -14,14 +14,15 @@ def rank_programs_for_user(user_id, user_data, program_data):
             user = u
             break
     if not user:
+        print("no return")
         return []
     
     user_emb = embed_users([user])[user_id]
     program_embs = embed_programs(program_data)
 
     distances = {}
-    for program_id, program_emb in program_embs.itmes():
-        distance = np.linalg.norm(user_emb-program_emb)
+    for program_id, program_emb in program_embs.items():
+        distance = np.linalg.norm(np.array(user_emb)-np.array(program_emb))
         distances[program_id] = distance
     
     ranked_programs = sorted(distances, key = distances.get)
@@ -31,12 +32,11 @@ def rank_programs_for_user(user_id, user_data, program_data):
 
 def main():
     parser = argparse.ArgumentParser(description = "rank programs for a given user ID")
-    parser.add_argument("user_id", type = str, help = "user ID to rank programs for")
+    parser.add_argument("--user_id", type = str, help = "user ID to rank programs for")
     args = parser.parse_args()
 
-    data = load_data("data.json")
-    user_data = data["user_data"]
-    program_data = data["program_data"]
+    user_data = load_data("user_dummy_data.json")
+    program_data = load_data("program_dummy_data.json")
     ranked_programs = rank_programs_for_user(args.user_id, user_data, program_data)
 
     print("Ranked Programs for User", args.user_id, ":", ranked_programs)

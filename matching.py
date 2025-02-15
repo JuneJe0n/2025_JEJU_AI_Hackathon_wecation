@@ -78,6 +78,7 @@ def find_best_program(team_centroid, program_embs):
         if distance < min_distance:
             min_distance = distance
             best_match = program_id
+    return best_match
 
 def match_teams(clusters, user_emb, program_emb):
     team_db = {}
