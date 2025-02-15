@@ -1,5 +1,5 @@
 from sklearn.cluster import DBSCAN
-from scipy.spatial.distance import cdsit
+from scipy.spatial.distance import cdist
 from collections import defaultdict 
 import numpy as np
 import uuid
