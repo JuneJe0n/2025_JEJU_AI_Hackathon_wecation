@@ -10,9 +10,10 @@ from embedding import embed_users, embed_programs
 
 
 def main():
-    data = load_data("data.json")
-    filtered_db = groupby_date_region(data["user_data"])
-    program_embeddings = embed_programs(data["program_data"])
+    user_data = load_data("user_dummy_data.json")
+    program_data = load_data("program_dummy_data.json")
+    filtered_db = groupby_date_region(user_data)
+    program_embeddings = embed_programs(program_data)
 
     final_teams = {}
     all_outliers = []

@@ -5,7 +5,7 @@ import numpy as np
 import uuid
 
 # perform DBSCAN clustering on the given embeddings
-def dbscan_clustering(embeddings, eps = 0.5, min_samples = 2):
+def dbscan_clustering(embeddings, eps = 10, min_samples = 2):
     """
     return)
     clusters : (key=cluster label), (value=cluster에 속하는 user_id)인 dict
@@ -59,8 +59,8 @@ def find_closest_users(user_ids, target_user, user_emb):
     distances = {}
     for user_id in user_ids:
         if user_id != target_user:
-            emb_vector = user_emb[user_id]
-            target_vector = user_emb[target_user]
+            emb_vector = np.array(user_emb[user_id])
+            target_vector = np.array(user_emb[target_user])
             distance = np.linalg.norm(emb_vector-target_vector)
             distances[user_id] = distance 
     sorted_users = sorted(distances, key=distances.get)
