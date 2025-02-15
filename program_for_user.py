@@ -4,8 +4,8 @@
 import json
 import argparse
 import numpy as np
-from util import load_data, embed_users, embed_programs
-
+from util import load_data
+from embedding import embed_users, embed_programs
 
 def rank_programs_for_user(user_id, user_data, program_data):
     user = None
