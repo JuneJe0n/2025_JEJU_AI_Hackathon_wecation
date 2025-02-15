@@ -26,8 +26,8 @@ def embed_users(users):
                 age=user["basic_info"]["age"],
                 job=user["basic_info"]["job"],
                 interest=", ".join(user["added_info"]["interest"])
-            ) for user in users
-        )
+            )
+        ) for user in users
     ]
     response = CLIENT.embeddings.create(
         model="text-embedding-3-small",
