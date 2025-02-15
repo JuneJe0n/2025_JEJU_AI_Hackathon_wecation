@@ -1,0 +1,523 @@
+[
+    {
+        "program_id": "0",
+        "name": "제주해녀박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "해녀 복장 체험 & 전통 물질 시연",
+        "url": "https://www.jeju.go.kr/haenyeo/index.htm",
+        "hashtag": [
+            "#해녀",
+            "#문화"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "1",
+        "name": "유민 아르누보 뮤지엄",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "도슨트 투어 & 아르누보 작품 해설",
+        "url": "https://phoenixhnr.co.kr/static/jeju/architecture/yuminart",
+        "hashtag": [
+            "#전시",
+            "#예술"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "2",
+        "name": "제주해양동물박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "해양 생물 터치풀 & 상어 이빨 관찰",
+        "url": "http://www.jejumarineanimal.com/",
+        "hashtag": [
+            "#해양",
+            "#박물관"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "3",
+        "name": "김녕요트투어",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "돌고래 탐험 투어 & 바다 낚시",
+        "url": "http://www.gnytour.com/",
+        "hashtag": [
+            "#요트",
+            "#제주"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "4",
+        "name": "메이즈랜드",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "미로 탐험 챌린지 & 보물찾기",
+        "url": "https://mazeland.co.kr/kor/",
+        "hashtag": [
+            "#미로",
+            "#체험"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "5",
+        "name": "스누피가든",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "스누피 포토존 & 굿즈 체험존",
+        "url": "https://www.snoopygarden.com/",
+        "hashtag": [
+            "#캐릭터",
+            "#정원"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "6",
+        "name": "제주자연생태공원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "숲속 곤충 체험 & 생태 해설 투어",
+        "url": "http://jejunaturepark.com/index.php",
+        "hashtag": [
+            "#생태",
+            "#자연"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "7",
+        "name": "일출랜드",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "동굴 탐험 & 일출 명당 투어",
+        "url": "http://www.ilchulland.com/?lang=ko",
+        "hashtag": [
+            "#일출",
+            "#제주"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "8",
+        "name": "제주 레일바이크",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "레일바이크 탑승 & 풍경 포토 미션",
+        "url": "http://www.jejurailpark.com/m/index.php",
+        "hashtag": [
+            "#레일바이크",
+            "#제주"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "9",
+        "name": "제주민속촌",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "전통 의상 체험 & 장작 패기 도전",
+        "url": "https://jejufolk.com/index.php",
+        "hashtag": [
+            "#민속촌",
+            "#전통"
+        ],
+        "region": "동부"
+    },
+    {
+        "program_id": "10",
+        "name": "아르떼뮤지엄 제주",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "미디어 아트 체험 & 인터랙티브 전시",
+        "url": "https://kr.artemuseum.com/",
+        "hashtag": [
+            "#미디어아트",
+            "#전시",
+            "#예술"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "11",
+        "name": "오설록 티 뮤지엄",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "차 시음 체험 & 티 테이블 전시",
+        "url": "https://www.osulloc.com/kr/ko/museum",
+        "hashtag": [
+            "#문화",
+            "#오설록"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "12",
+        "name": "제주현대미술관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "현대미술 작품 감상 & 창작 체험",
+        "url": "https://www.jeju.go.kr/jejumuseum/index.htm",
+        "hashtag": [
+            "#예술",
+            "#전시"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "13",
+        "name": "초콜릿박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "초콜릿 제작 체험 & 시식 행사",
+        "url": "http://chocomuseum.alltheway.kr/",
+        "hashtag": [
+            "#초콜릿",
+            "#체험"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "14",
+        "name": "제주 추사관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "추사체 캘리그라피 & 전시 해설",
+        "url": "http://www.jeju.go.kr/chusa/index.htm",
+        "hashtag": [
+            "#예술",
+            "#전시"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "15",
+        "name": "라온더마파크",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "승마 체험 & 말 먹이 주기",
+        "url": "http://www.mapark.co.kr/",
+        "hashtag": [
+            "#승마",
+            "#공연"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "16",
+        "name": "제주돌마을공원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "돌하르방 만들기 체험 & 전시 관람",
+        "url": "http://www.jeju-dol.com/",
+        "hashtag": [
+            "#돌문화",
+            "#전시"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "17",
+        "name": "비체올린",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "야외 공연 감상 & 음악 체험",
+        "url": "http://www.vicheollin.com/",
+        "hashtag": [
+            "#음악",
+            "#공연"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "18",
+        "name": "산양큰엉곶",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "해안길 트레킹 & 포토존 탐방",
+        "url": "http://sanyangforest.com/",
+        "hashtag": [
+            "#트레킹",
+            "#해안"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "19",
+        "name": "신화테마파크",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "놀이기구 탑승 & 퍼레이드 관람",
+        "url": "https://www.shinhwaworld.com/themepark.jhtml",
+        "hashtag": [
+            "#테마파크",
+            "#놀이"
+        ],
+        "region": "서부"
+    },
+    {
+        "program_id": "20",
+        "name": "제주토이파크",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "장난감 체험관 & 키즈카페 체험",
+        "url": "http://www.toypark.withmedia.kr/",
+        "hashtag": [
+            "#파크",
+            "#체험"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "21",
+        "name": "윈드1947카트 테마파크",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "카트 레이싱 & 기록 도전",
+        "url": "http://sklec.com/index.php",
+        "hashtag": [
+            "#카트",
+            "#레이싱"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "22",
+        "name": "감귤박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "감귤 수확 체험 & 가공 과정 탐방",
+        "url": "https://culture.seogwipo.go.kr/citrus/index.htm",
+        "hashtag": [
+            "#감귤",
+            "#체험"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "23",
+        "name": "본태박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "전통 공예 체험 & 현대미술 감상",
+        "url": "http://www.bontemuseum.com/",
+        "hashtag": [
+            "#공예",
+            "#예술"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "24",
+        "name": "휴애리 자연생활공원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "동물 먹이 주기 & 계절별 꽃 축제",
+        "url": "http://www.hueree.com/",
+        "hashtag": [
+            "#자연",
+            "#체험"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "25",
+        "name": "제주동백마을",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "동백꽃 포토존 & 전통놀이 체험",
+        "url": "http://www.jejudongbaektown.com/index.php",
+        "hashtag": [
+            "#동백꽃",
+            "#체험"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "26",
+        "name": "하례감귤체험농장",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "감귤 수확 체험 & 농장 투어",
+        "url": "https://map.naver.com/p/search/하례감귤체험농장",
+        "hashtag": [
+            "#감귤",
+            "#농장"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "27",
+        "name": "이중섭미술관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "이중섭 작품 감상 & 체험 프로그램",
+        "url": "https://culture.seogwipo.go.kr/jslee/",
+        "hashtag": [
+            "#전시",
+            "#예술"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "28",
+        "name": "왈종미술관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "왈종 작품 전시 & 예술 체험",
+        "url": "http://www.walartmuseum.or.kr/",
+        "hashtag": [
+            "#전시",
+            "#예술"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "29",
+        "name": "뽀로로앤타요 테마파크 제주",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "캐릭터 체험존 & 키즈 놀이기구",
+        "url": "http://www.pororopark.com/branch/park_tour.php?uid=30",
+        "hashtag": [
+            "#캐릭터",
+            "#테마파크"
+        ],
+        "region": "남부"
+    },
+    {
+        "program_id": "30",
+        "name": "아침미소목장",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "동물 교감 체험 & 목장 투어",
+        "url": "https://morningsmile.modoo.at/",
+        "hashtag": [
+            "#목장",
+            "#체험"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "31",
+        "name": "돌하르방미술관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "돌하르방 만들기 체험 & 전시 관람",
+        "url": "https://map.naver.com/p/entry/place/10983870",
+        "hashtag": [
+            "#돌하르방",
+            "#전시"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "32",
+        "name": "제주돌문화공원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "돌문화 탐방 & 스토리 해설 투어",
+        "url": "https://www.jeju.go.kr/jejustonepark/index.htm",
+        "hashtag": [
+            "#돌문화",
+            "#제주"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "33",
+        "name": "탐라승마장",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "승마 체험 & 말 먹이 주기",
+        "url": "https://map.naver.com/p/entry/place/16888829",
+        "hashtag": [
+            "#승마",
+            "#체험"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "34",
+        "name": "에코랜드",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "에코 기차 탑승 & 숲속 체험",
+        "url": "http://theme.ecolandjeju.co.kr/",
+        "hashtag": [
+            "#에코랜드",
+            "#체험"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "35",
+        "name": "제주조천 스위스마을",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "스위스풍 포토존 & 마을 산책",
+        "url": "http://www.jejuswiss.com/",
+        "hashtag": [
+            "#산책",
+            "#포토스팟"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "36",
+        "name": "국립제주박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "제주 역사 해설 & 유물 관람",
+        "url": "https://jeju.museum.go.kr/html/kr/index.html",
+        "hashtag": [
+            "#박물관",
+            "#유물"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "37",
+        "name": "선녀와 나무꾼 테마공원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "전통놀이 체험 & 포토존 투어",
+        "url": "http://www.namuggun.com/",
+        "hashtag": [
+            "#전통",
+            "#체험"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "38",
+        "name": "넥슨 컴퓨터 박물관",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "게임 체험존 & IT 역사 탐방",
+        "url": "https://computermuseum.nexon.com/",
+        "hashtag": [
+            "#컴퓨터",
+            "#게임"
+        ],
+        "region": "북부"
+    },
+    {
+        "program_id": "39",
+        "name": "한라수목원",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "info": "숲속 탐방로 걷기 & 식물 관찰",
+        "url": "http://sumokwon.jeju.go.kr/",
+        "hashtag": [
+            "#수목원",
+            "#자연"
+        ],
+        "region": "북부"
+    }
+]
