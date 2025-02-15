@@ -4,7 +4,7 @@
 
 import json
 from util import load_data, groupby_date_region
-from matching import dbscan_clustering, compute_centroids, match_teams
+from matching import dbscan_clustering, compute_centroid, match_teams
 from embedding import embed_users, embed_programs
 
 
