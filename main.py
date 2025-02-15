@@ -10,8 +10,8 @@ from embedding import embed_users, embed_programs
 
 
 def main():
-    user_data = load_data("user_dummy_data.json")
-    program_data = load_data("program_dummy_data.json")
+    user_data = load_data("./dataset/user_dummy_data.json")
+    program_data = load_data("./dataset/program_dummy_data.json")
     filtered_db = groupby_date_region(user_data)
     program_embeddings = embed_programs(program_data)
 
