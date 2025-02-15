@@ -18,21 +18,23 @@ PROGRAM_EMBED_PROMPT = """
 """
 
 # mathcing embedding 생성
-def embed_users(user):
-    prompt = preprocess_prompt(
-        MATCHING_EMBED_PROMPT.format(
-            sex="남성" if user["basic_info"]["sex"]=="M" else "여성",
-            age=user["basic_info"]["age"],
-            job=user["basic_info"]["job"],
-            interest=", ".join(user["added_info"]["interest"])
+def embed_users(users):
+    prompts = [
+        preprocess_prompt(
+            MATCHING_EMBED_PROMPT.format(
+                sex="남성" if user["basic_info"]["sex"]=="M" else "여성",
+                age=user["basic_info"]["age"],
+                job=user["basic_info"]["job"],
+                interest=", ".join(user["added_info"]["interest"])
+            ) for user in users
         )
-    )
+    ]
     response = CLIENT.embeddings.create(
         model="text-embedding-3-small",
-        input=prompt
+        input=prompts
     )
-    embedding = response.data[0].embedding
-    return embedding
+    embeddings = [data.embedding for data in response.data]
+    return embeddings
 
 # program embeddings 생성
 def embed_programs(programs):
