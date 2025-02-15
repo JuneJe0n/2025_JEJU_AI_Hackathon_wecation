@@ -20,3 +20,5 @@ def groupby_date_region(users):
 
     return filtered_db
 
+def preprocess_prompt(text):
+    return text.strip().replace("\n", " ")
