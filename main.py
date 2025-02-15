@@ -3,8 +3,9 @@
 """
 
 import json
-from util import load_data, groupby_date_region, embed_users, embed_programs
+from util import load_data, groupby_date_region
 from matching import dbscan_clustering, compute_centroids, match_teams
+from embedding import embed_users, embed_programs
 
 
 
