@@ -6,7 +6,8 @@
           "sex": "M",
           "age": 32,
           "job": "개발자",
-          "exp": "5년"
+          "exp": "5년",
+          "user_id": 0
         },
         "added_info": {
           "interest": ["AI", "네트워킹", "워케이션"],
@@ -20,7 +21,8 @@
           "sex": "F",
           "age": 28,
           "job": "디자이너",
-          "exp": "3년"
+          "exp": "3년",
+          "user_id": 1
         },
         "added_info": {
           "interest": ["예술", "사진", "브랜딩"],
