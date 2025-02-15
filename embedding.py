@@ -34,17 +34,19 @@ def embed_users(user):
     embedding = response.data[0].embedding
     return embedding
 
-# program embedding 생성
-def embed_programs(program):
-    prompt = preprocess_prompt(
-        PROGRAM_EMBED_PROMPT.format(
-            name=program["name"],
-            hashtag=", ".join(list(map(lambda x: x.lstrip("#"), program["hashtag"])))
-        )
-    )
+# program embeddings 생성
+def embed_programs(programs):
+    prompts = [
+        preprocess_prompt(
+            PROGRAM_EMBED_PROMPT.format(
+                name=program["name"],
+                hashtag=", ".join(list(map(lambda x: x.lstrip("#"), program["hashtag"])))
+            )
+        ) for program in programs
+    ]
     response = CLIENT.embeddings.create(
         model="text-embedding-3-small",
-        input=prompt
+        input=prompts
     )
-    embedding = response.data[0].embedding
-    return embedding
+    embeddings = [data.embedding for data in response.data]
+    return embeddings
