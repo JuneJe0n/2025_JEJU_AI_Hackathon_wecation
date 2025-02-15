@@ -20,23 +20,3 @@ def groupby_date_region(users):
 
     return filtered_db
 
-# sex, age, job, interest로 user emb 생성
-def embed_users(users):
-    user_emb = {}
-    """
-    todo) 도현
-    key가 user id, value가 emb
-    """
-    return user_emb
-
-def embed_programs(program_data):
-    program_emb = {}
-    """
-    todo) 도현
-    key가 program id, value가 emb
-    """
-    return program_emb
-
-# prmopt 전처리
-def preprocess_prompt(text):
-    return text.strip().replace("\n", " ")
