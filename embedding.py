@@ -18,7 +18,7 @@ PROGRAM_EMBED_PROMPT = """
 """
 
 # mathcing embedding 생성
-def matching_embed(user):
+def embed_users(user):
     prompt = preprocess_prompt(
         MATCHING_EMBED_PROMPT.format(
             sex="남성" if user["basic_info"]["sex"]=="M" else "여성",
@@ -35,7 +35,7 @@ def matching_embed(user):
     return embedding
 
 # program embedding 생성
-def program_embed(program):
+def embed_programs(program):
     prompt = preprocess_prompt(
         PROGRAM_EMBED_PROMPT.format(
             name=program["name"],
