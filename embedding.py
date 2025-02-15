@@ -35,7 +35,7 @@ def embed_users(users):
         model="text-embedding-3-small",
         input=prompts
     )
-    embeddings = [data.embedding for data in response.data]
+    embeddings = {user["basic_info"]["user_id"]: data.embedding for user, data in zip(users, response.data)}
     return embeddings
 
 # program embeddings 생성
@@ -52,5 +52,5 @@ def embed_programs(programs):
         model="text-embedding-3-small",
         input=prompts
     )
-    embeddings = [data.embedding for data in response.data]
+    embeddings = {program["program_id"]: data.embedding for program, data in zip(programs, response.data)}
     return embeddings

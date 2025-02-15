@@ -22,7 +22,6 @@ def main():
     for group in filtered_db :
         region, date, users = group["region"], group["date"], group["users"]
         user_embeddings = embed_users(users)
-        user_embeddings = {f"{user['basic_info']['user_id']}": user_embeddings[i] for i, user in enumerate(group["users"])}
         clusters, outliers = dbscan_clustering(user_embeddings)
         team_db, additional_outliers = match_teams(clusters, user_embeddings, program_embeddings)
 
