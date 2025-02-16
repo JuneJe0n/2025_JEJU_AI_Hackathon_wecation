@@ -35,8 +35,8 @@ def main():
     parser.add_argument("--user_id", type = str, help = "user ID to rank programs for")
     args = parser.parse_args()
 
-    user_data = load_data("user_dummy_data.json")
-    program_data = load_data("program_dummy_data.json")
+    user_data = load_data("./dataset/user_dummy_data.json")
+    program_data = load_data("./dataset/program_dummy_data.json")
     ranked_programs = rank_programs_for_user(args.user_id, user_data, program_data)
 
     print("Ranked Programs for User", args.user_id, ":", ranked_programs)
