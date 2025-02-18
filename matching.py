@@ -5,7 +5,7 @@ import numpy as np
 import uuid
 
 # perform DBSCAN clustering on the given embeddings
-def dbscan_clustering(embeddings, eps = 0.6, min_samples = 2):
+def dbscan_clustering(embeddings, eps = 2.0, min_samples = 2):
     """
     return)
     clusters : (key=cluster label), (value=cluster에 속하는 user_id)인 dict

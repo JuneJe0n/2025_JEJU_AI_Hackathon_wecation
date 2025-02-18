@@ -35,5 +35,5 @@ def get_fitness(user_embed, program_embed):
     program_embed = program_embed / np.linalg.norm(program_embed, ord=2, axis=1, keepdims=True)
     
     cos_similarity = np.dot(user_embed, program_embed.T)
-    fitness = np.round((cos_similarity + 1) / 2, 0)
+    fitness = np.round(((cos_similarity + 1) / 2 * 100), 0)
     return fitness
