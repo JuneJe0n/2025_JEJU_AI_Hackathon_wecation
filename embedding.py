@@ -4,8 +4,11 @@ from util import preprocess_prompt
 from dotenv import load_dotenv
 load_dotenv()
 
-# openai embedding api
-CLIENT = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+# upstage api
+CLIENT = OpenAI(
+    api_key="",
+    base_url="https://api.upstage.ai/v1/solar"
+)
 
 # matching prompt format
 MATCHING_EMBED_PROMPT = """
@@ -32,7 +35,7 @@ def embed_users(users):
         ) for user in users
     ]
     response = CLIENT.embeddings.create(
-        model="text-embedding-3-small",
+        model="embedding-query",
         input=prompts
     )
     embeddings = {user["basic_info"]["user_id"]: data.embedding for user, data in zip(users, response.data)}
@@ -49,7 +52,7 @@ def embed_programs(programs):
         ) for program in programs
     ]
     response = CLIENT.embeddings.create(
-        model="text-embedding-3-small",
+        model="embedding-query",
         input=prompts
     )
     embeddings = {program["program_id"]: data.embedding for program, data in zip(programs, response.data)}

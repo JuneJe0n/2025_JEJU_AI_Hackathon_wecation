@@ -2,8 +2,12 @@ import os
 from openai import OpenAI
 from util import preprocess_prompt
 
-# openai embedding api
-CLIENT = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+# upstage api
+CLIENT = OpenAI(
+    api_key="",
+    base_url="https://api.upstage.ai/v1/solar"
+)
+
 
 # translation system prompt format
 TRANSLATION_SYSTEM_PROMPT = """
@@ -31,9 +35,9 @@ def translate(data):
         )
     )
     response = CLIENT.chat.completions.create(
-        model="gpt-4o-mini",
+        model="solar-pro",
         messages=[
-            {"role": "developer", "content": system_prompt},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ]
     )
