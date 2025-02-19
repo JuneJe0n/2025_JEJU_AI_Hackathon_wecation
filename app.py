@@ -41,8 +41,8 @@ if st.session_state.page1:
 
         with col12:
             age = st.text_input("나이", key="my_info_age")
-            job = st.selectbox("직업군", ("개발자", "디자이너", "회계/법"), key="my_info_job")
-            mbti = st.selectbox("MBTI", ("ENFP", "ISFP"), key="my_info_mbti")
+            job = st.selectbox("직업군", ("개발자", "디자이너"), key="my_info_job")
+            mbti = st.selectbox("MBTI", ("ISFP", "ISFJ", "ISTP", "ISTJ", "INFP", "INFJ", "INTP", "INTJ", "ESFP", "ESFJ", "ESTP", "ESTJ", "ENFP", "ENFJ", "ENTP", "ENTJ"), key="my_info_mbti")
 
         with col13:
             introduction = st.text_area("간단한 자기소개", height=205, key="my_info_introduction")
@@ -73,7 +73,8 @@ if st.session_state.page1:
                         "sex": sex,
                         "age": age,
                         "job": job,
-                        "exp": introduction
+                        "exp": introduction,
+                        "mbti": mbti
                     },
                     "added_info": {
                         "interest": interest,
@@ -101,7 +102,7 @@ if st.session_state.page1:
                 st.rerun()
 
 if st.session_state.page2:
-    st.subheader("당신과 매칭된 파트너들")
+    st.subheader("당신과 매칭된 파트너들", divider="gray")
 
     my_embed = embed_users([st.session_state.info])
     for k, v in my_embed.items():
@@ -125,10 +126,14 @@ if st.session_state.page2:
     
     def profile(user):
         with st.container(border=True):
-            st.markdown(f"이름: {user['basic_info']['name']}")
-            st.markdown(f"성별: {user['basic_info']['sex']}")
-            st.markdown(f"나이: {user['basic_info']['age']}")
-            st.markdown(f"직업군: {user['basic_info']['job']}")
+            st.markdown(f"{user['basic_info']['name']}")
+            with st.container(border=True):
+                st.caption(f"성별: {user['basic_info']['sex']}")
+                st.caption(f"나이: {user['basic_info']['age']}")
+                st.caption(f"직업군: {user['basic_info']['job']}")
+                st.caption(f"MBTI: {user['basic_info']['mbti']}")
+                st.divider()
+                st.caption(f"{user['basic_info']['exp']}")
 
 
     with st.container(border=True):
@@ -204,7 +209,7 @@ if st.session_state.page3:
                 st.caption(f"{program['info']}")
                 st.caption(f"{'   '.join(program['hashtag'])}")
                 st.caption(f"모집 현황: {program['person']}/{program['limit']} ({program['ongoing']})")
-                st.caption(f"추천률: {program['fitness']}%")
+                st.caption(f"추천률: {int(program['fitness'])}%")
         
         show_programs(topk_programs)
     
