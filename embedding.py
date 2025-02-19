@@ -28,7 +28,7 @@ def embed_users(users):
     prompts = [
         preprocess_prompt(
             MATCHING_EMBED_PROMPT.format(
-                sex="남성" if user["basic_info"]["sex"]=="M" else "여성",
+                sex="남성" if user["basic_info"]["sex"]=="남" else "여성",
                 age=user["basic_info"]["age"],
                 job=user["basic_info"]["job"],
                 mbti=user["basic_info"]["mbti"],
